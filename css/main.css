@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul.breadcrumb {
+	padding: .5em 1em;
+	list-style: none;
+	background: #CCC;
+}
+
+	ul.breadcrumb li {
+		display: inline;
+	}
+
+		ul.breadcrumb li+li:before {
+			padding: .5em;
+			content: "/";
+			color: #000;
+		}
+
+	ul.breadcrumb li a {
+		color: #000;
+	}
